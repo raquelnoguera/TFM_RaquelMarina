@@ -1,0 +1,50 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.04583",
+   "Default View_TopLeft":"-771,2",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port S_AXI -pg 1 -lvl 0 -x -460 -y 60 -defaultsOSRD
+preplace port S_AXI1 -pg 1 -lvl 0 -x -460 -y 240 -defaultsOSRD
+preplace port axis -pg 1 -lvl 5 -x 750 -y 420 -defaultsOSRD
+preplace port axis1 -pg 1 -lvl 5 -x 750 -y 580 -defaultsOSRD
+preplace port S_AXI2 -pg 1 -lvl 0 -x -460 -y 120 -defaultsOSRD
+preplace port S_AXI3 -pg 1 -lvl 0 -x -460 -y 570 -defaultsOSRD
+preplace port S_AXI4 -pg 1 -lvl 0 -x -460 -y 350 -defaultsOSRD
+preplace port port-id_s_axi_aclk -pg 1 -lvl 0 -x -460 -y 150 -defaultsOSRD
+preplace port port-id_s_axi_aresetn -pg 1 -lvl 0 -x -460 -y 600 -defaultsOSRD
+preplace port port-id_axis_clk -pg 1 -lvl 0 -x -460 -y 670 -defaultsOSRD
+preplace port port-id_axis_aresetn -pg 1 -lvl 0 -x -460 -y 700 -defaultsOSRD
+preplace inst axi_gpio_3 -pg 1 -lvl 2 -x 30 -y 140 -defaultsOSRD
+preplace inst axi_gpio_4 -pg 1 -lvl 2 -x 30 -y 590 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 4 -x 630 -y 90 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -x 360 -y 80 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 4 -x 630 -y 490 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 3 -x 360 -y 260 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 1 -x -270 -y 370 -defaultsOSRD
+preplace inst DACRAMstreamer_0 -pg 1 -lvl 3 -x 360 -y 410 -defaultsOSRD
+preplace inst DACRAMstreamer_1 -pg 1 -lvl 3 -x 360 -y 570 -defaultsOSRD
+preplace netloc axi_gpio_0_gpio_io_o 1 1 2 NJ 380 160
+preplace netloc axi_gpio_3_gpio_io_o 1 2 1 170 150n
+preplace netloc axi_gpio_4_gpio_io_o 1 2 1 N 600
+preplace netloc clk_wiz_0_clk_out1 1 0 3 -420J 510 N 510 180
+preplace netloc proc_sys_reset_1_peripheral_aresetn 1 0 3 -430J 500 N 500 190
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 3 -440 290 -120 220 190
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 3 -420 150 -130 250 180
+preplace netloc Conn1 1 0 1 N 350
+preplace netloc DACRAMstreamer_0_BRAM_A 1 3 1 520 100n
+preplace netloc DACRAMstreamer_0_axis 1 3 2 NJ 420 NJ
+preplace netloc DACRAMstreamer_1_BRAM_A 1 3 1 520 500n
+preplace netloc DACRAMstreamer_1_axis 1 3 2 NJ 580 NJ
+preplace netloc S_AXI1_1 1 0 3 NJ 240 N 240 NJ
+preplace netloc S_AXI_1 1 0 3 NJ 60 N 60 NJ
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 N 80
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 3 1 530 260n
+preplace netloc ps8_0_axi_periph_M05_AXI 1 0 2 NJ 120 N
+preplace netloc ps8_0_axi_periph_M08_AXI 1 0 2 NJ 570 N
+levelinfo -pg 1 -460 -270 30 360 630 750
+pagesize -pg 1 -db -bbox -sgen -590 -50 830 1280
+"
+}
+0

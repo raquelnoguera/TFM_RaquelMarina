@@ -1,0 +1,36 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.29828",
+   "Default View_TopLeft":"-642,2",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port S_AXI -pg 1 -lvl 0 -x -100 -y 60 -defaultsOSRD
+preplace port led_4bits -pg 1 -lvl 2 -x 190 -y 80 -defaultsOSRD
+preplace port S_AXI1 -pg 1 -lvl 0 -x -100 -y 480 -defaultsOSRD
+preplace port push_buttons_5bits -pg 1 -lvl 2 -x 190 -y 500 -defaultsOSRD
+preplace port S_AXI2 -pg 1 -lvl 0 -x -100 -y 200 -defaultsOSRD
+preplace port dip_switches_4bits -pg 1 -lvl 2 -x 190 -y 220 -defaultsOSRD
+preplace port pmod0 -pg 1 -lvl 2 -x 190 -y 360 -defaultsOSRD
+preplace port S_AXI3 -pg 1 -lvl 0 -x -100 -y 340 -defaultsOSRD
+preplace port port-id_s_axi_aclk -pg 1 -lvl 0 -x -100 -y 370 -defaultsOSRD
+preplace port port-id_s_axi_aresetn -pg 1 -lvl 0 -x -100 -y 510 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 1 -x 60 -y 80 -defaultsOSRD
+preplace inst axi_gpio_2 -pg 1 -lvl 1 -x 60 -y 500 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 60 -y 220 -defaultsOSRD
+preplace inst axi_gpio_3 -pg 1 -lvl 1 -x 60 -y 360 -defaultsOSRD
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 1 -70 100n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 1 -80 80n
+preplace netloc axi_gpio_0_GPIO 1 1 1 NJ 220
+preplace netloc axi_gpio_1_GPIO 1 1 1 NJ 80
+preplace netloc axi_gpio_2_GPIO 1 1 1 NJ 500
+preplace netloc ps8_0_axi_periph_M01_AXI 1 0 1 NJ 200
+preplace netloc ps8_0_axi_periph_M02_AXI 1 0 1 NJ 60
+preplace netloc ps8_0_axi_periph_M03_AXI 1 0 1 NJ 480
+preplace netloc Conn1 1 1 1 NJ 360
+preplace netloc Conn2 1 0 1 NJ 340
+levelinfo -pg 1 -100 60 190
+pagesize -pg 1 -db -bbox -sgen -230 0 370 600
+"
+}
+

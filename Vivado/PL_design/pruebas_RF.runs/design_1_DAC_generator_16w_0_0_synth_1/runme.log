@@ -1,0 +1,142 @@
+
+*** Running vivado
+    with args -log design_1_DAC_generator_16w_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_DAC_generator_16w_0_0.tcl
+
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+Sourcing tcl script 'C:/Users/raque/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl'
+source design_1_DAC_generator_16w_0_0.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:10 . Memory (MB): peak = 1274.848 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.cache/ip 
+Command: synth_design -top design_1_DAC_generator_16w_0_0 -part xczu48dr-ffvg1517-2-e -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu48dr'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu48dr'
+INFO: [Common 17-86] Your Synthesis license expires in 2 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2023.07' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Device 21-403] Loading part xczu48dr-ffvg1517-2-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26788
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:24 . Memory (MB): peak = 1733.062 ; gain = 270.762
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_DAC_generator_16w_0_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_DAC_generator_16w_0_0/synth/design_1_DAC_generator_16w_0_0.vhd:74]
+	Parameter DATA_WIDTH bound to: 256 - type: integer 
+	Parameter Lambda bound to: 1024 - type: integer 
+	Parameter Radius bound to: 8192 - type: integer 
+INFO: [Synth 8-3491] module 'DAC_generator' declared at 'c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ipshared/a918/src/DAC_generator.vhd:6' bound to instance 'U0' of component 'DAC_generator' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_DAC_generator_16w_0_0/synth/design_1_DAC_generator_16w_0_0.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'DAC_generator' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ipshared/a918/src/DAC_generator.vhd:29]
+	Parameter Lambda bound to: 1024 - type: integer 
+	Parameter Radius bound to: 8192 - type: integer 
+INFO: [Synth 8-3491] module 'AntennaArraySteering_generator' declared at 'c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ipshared/a918/src/params_generator.vhd:29' bound to instance 'params_generator' of component 'AntennaArraySteering_generator' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ipshared/a918/src/DAC_generator.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'AntennaArraySteering_generator' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ipshared/a918/src/params_generator.vhd:45]
+WARNING: [Synth 8-614] signal 'aresetn' is read in the process but is not in the sensitivity list [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ipshared/a918/src/params_generator.vhd:71]
+WARNING: [Synth 8-614] signal 'temp1' is read in the process but is not in the sensitivity list [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ipshared/a918/src/params_generator.vhd:102]
+INFO: [Synth 8-256] done synthesizing module 'AntennaArraySteering_generator' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ipshared/a918/src/params_generator.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'DAC_generator' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ipshared/a918/src/DAC_generator.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'design_1_DAC_generator_16w_0_0' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_DAC_generator_16w_0_0/synth/design_1_DAC_generator_16w_0_0.vhd:74]
+WARNING: [Synth 8-3936] Found unconnected internal register 'alfa_out_aux_reg[0]' and it is trimmed from '32' to '30' bits. [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ipshared/a918/src/params_generator.vhd:105]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 1820.578 ; gain = 358.277
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 1841.484 ; gain = 379.184
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:29 . Memory (MB): peak = 1841.484 ; gain = 379.184
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1841.484 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1947.770 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 1965.625 ; gain = 17.855
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:41 . Memory (MB): peak = 1965.625 ; gain = 503.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu48dr-ffvg1517-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:41 . Memory (MB): peak = 1965.625 ; gain = 503.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:41 . Memory (MB): peak = 1965.625 ; gain = 503.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:43 . Memory (MB): peak = 1965.625 ; gain = 503.324
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 3     
+	   3 Input   20 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 32    
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 2     
+	   4 Input   11 Bit        Muxes := 4     
+	   4 Input    7 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 4272 (col length:192)
+BRAMs: 2160 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP linear_interpolation2, operation Mode is: A*(B:0x2d8).
+DSP Report: operator linear_interpolation2 is absorbed into DSP linear_interpolation2.
+DSP Report: Generating DSP linear_interpolation0, operation Mode is: (D-A)*B.
+DSP Report: operator linear_interpolation0 is absorbed into DSP linear_interpolation0.
+DSP Report: operator linear_interpolation1 is absorbed into DSP linear_interpolation0.
+DSP Report: Generating DSP temp1, operation Mode is: (A:0x3fffe6df)*B.
+DSP Report: operator temp1 is absorbed into DSP temp1.
+DSP Report: Generating DSP linear_interpolation0, operation Mode is: (D-A)*B.
+DSP Report: operator linear_interpolation0 is absorbed into DSP linear_interpolation0.
+DSP Report: operator linear_interpolation1 is absorbed into DSP linear_interpolation0.
+DSP Report: Generating DSP alfa_out_01, operation Mode is: (A:0x600)*B.
+DSP Report: operator alfa_out_01 is absorbed into DSP alfa_out_01.
+DSP Report: Generating DSP alfa_out_00, operation Mode is: A*B.
+DSP Report: operator alfa_out_00 is absorbed into DSP alfa_out_00.

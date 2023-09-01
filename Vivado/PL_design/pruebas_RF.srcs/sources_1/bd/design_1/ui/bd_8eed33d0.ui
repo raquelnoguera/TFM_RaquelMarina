@@ -1,0 +1,56 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.649589",
+   "Default View_TopLeft":"-1598,-466",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port S_AXI -pg 1 -lvl 0 -x -10 -y 900 -defaultsOSRD
+preplace port rgbled1 -pg 1 -lvl 2 -x 320 -y 920 -defaultsOSRD
+preplace port S_AXI1 -pg 1 -lvl 0 -x -10 -y 200 -defaultsOSRD
+preplace port S_AXI2 -pg 1 -lvl 0 -x -10 -y 620 -defaultsOSRD
+preplace port dip_switches_4bits -pg 1 -lvl 2 -x 320 -y 640 -defaultsOSRD
+preplace port S_AXI3 -pg 1 -lvl 0 -x -10 -y 760 -defaultsOSRD
+preplace port led_4bits -pg 1 -lvl 2 -x 320 -y 780 -defaultsOSRD
+preplace port S_AXI4 -pg 1 -lvl 0 -x -10 -y 1040 -defaultsOSRD
+preplace port rgbled0 -pg 1 -lvl 2 -x 320 -y 1060 -defaultsOSRD
+preplace port S_AXI5 -pg 1 -lvl 0 -x -10 -y 60 -defaultsOSRD
+preplace port S_AXI7 -pg 1 -lvl 0 -x -10 -y 340 -defaultsOSRD
+preplace port S_AXI8 -pg 1 -lvl 0 -x -10 -y 480 -defaultsOSRD
+preplace port port-id_s_axi_aclk -pg 1 -lvl 0 -x -10 -y 790 -defaultsOSRD
+preplace port port-id_s_axi_aresetn -pg 1 -lvl 0 -x -10 -y 930 -defaultsOSRD
+preplace portBus PB_1 -pg 1 -lvl 2 -x 320 -y 90 -defaultsOSRD -right
+preplace portBus PB_2 -pg 1 -lvl 2 -x 320 -y 230 -defaultsOSRD -right
+preplace portBus PB_3 -pg 1 -lvl 2 -x 320 -y 370 -defaultsOSRD -right
+preplace portBus PB_4 -pg 1 -lvl 2 -x 320 -y 510 -defaultsOSRD -right
+preplace inst axi_rgbled1 -pg 1 -lvl 1 -x 160 -y 920 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 160 -y 220 -defaultsOSRD
+preplace inst axi_switches -pg 1 -lvl 1 -x 160 -y 640 -defaultsOSRD
+preplace inst axi_leds -pg 1 -lvl 1 -x 160 -y 780 -defaultsOSRD
+preplace inst axi_rgbled0 -pg 1 -lvl 1 -x 160 -y 1060 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 1 -x 160 -y 80 -defaultsOSRD
+preplace inst axi_gpio_3 -pg 1 -lvl 1 -x 160 -y 360 -defaultsOSRD
+preplace inst axi_gpio_4 -pg 1 -lvl 1 -x 160 -y 500 -defaultsOSRD
+preplace netloc gpio_io_i_0_1 1 1 1 NJ 90
+preplace netloc gpio_io_i_1_1 1 1 1 NJ 230
+preplace netloc gpio_io_i_2_1 1 1 1 NJ 370
+preplace netloc gpio_io_i_3_1 1 1 1 NJ 510
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 0 1 20 100n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 1 10 80n
+preplace netloc Conn3 1 0 1 NJ 60
+preplace netloc Conn7 1 0 1 NJ 340
+preplace netloc Conn9 1 0 1 NJ 480
+preplace netloc axi_gpio_0_GPIO 1 1 1 NJ 640
+preplace netloc axi_gpio_1_GPIO 1 1 1 NJ 780
+preplace netloc axi_gpio_3_GPIO 1 1 1 NJ 1060
+preplace netloc axi_gpio_4_GPIO 1 1 1 NJ 920
+preplace netloc ps8_0_axi_periph_M01_AXI 1 0 1 NJ 620
+preplace netloc ps8_0_axi_periph_M02_AXI 1 0 1 NJ 760
+preplace netloc ps8_0_axi_periph_M03_AXI 1 0 1 NJ 200
+preplace netloc ps8_0_axi_periph_M04_AXI 1 0 1 NJ 1040
+preplace netloc ps8_0_axi_periph_M05_AXI 1 0 1 NJ 900
+levelinfo -pg 1 -10 160 320
+pagesize -pg 1 -db -bbox -sgen -140 0 490 1140
+"
+}
+0

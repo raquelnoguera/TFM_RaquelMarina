@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/RFSoCoverlay_v2/RFSoCoverlay.srcs/constrs_1/new/RFSoCoverlay.xdc rfile:../../../RFSoCoverlay.srcs/constrs_1/new/RFSoCoverlay.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:8 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AP18 [get_ports PL_SYSREF[0]]
+set_property src_info {type:XDC file:1 line:9 export:INPUT save:INPUT read:READ} [current_design]
+set_property PACKAGE_PIN AN11 [get_ports PL_CLK[0]]

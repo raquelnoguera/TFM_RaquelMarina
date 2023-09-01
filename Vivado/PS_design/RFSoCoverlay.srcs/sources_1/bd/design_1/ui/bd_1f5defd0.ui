@@ -1,0 +1,83 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.478378",
+   "Default View_TopLeft":"-809,-21",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port sysref_in -pg 1 -lvl 0 -x -40 -y 1140 -defaultsOSRD
+preplace port adc0_clk -pg 1 -lvl 0 -x -40 -y 630 -defaultsOSRD
+preplace port vin0_01 -pg 1 -lvl 0 -x -40 -y 1170 -defaultsOSRD
+preplace port vout00 -pg 1 -lvl 6 -x 2280 -y 720 -defaultsOSRD
+preplace port dac2_clk -pg 1 -lvl 0 -x -40 -y 720 -defaultsOSRD
+preplace port vout20 -pg 1 -lvl 6 -x 2280 -y 780 -defaultsOSRD
+preplace port vout10 -pg 1 -lvl 6 -x 2280 -y 750 -defaultsOSRD
+preplace port dip_switches_4bits -pg 1 -lvl 6 -x 2280 -y 1380 -defaultsOSRD
+preplace port led_4bits -pg 1 -lvl 6 -x 2280 -y 1320 -defaultsOSRD
+preplace port push_buttons_5bits -pg 1 -lvl 6 -x 2280 -y 1350 -defaultsOSRD
+preplace port adc2_clk -pg 1 -lvl 0 -x -40 -y 660 -defaultsOSRD
+preplace port vin2_01 -pg 1 -lvl 0 -x -40 -y 1200 -defaultsOSRD
+preplace port pmod0 -pg 1 -lvl 6 -x 2280 -y 1410 -defaultsOSRD
+preplace portBus PL_SYSREF -pg 1 -lvl 0 -x -40 -y 600 -defaultsOSRD
+preplace portBus PL_CLK -pg 1 -lvl 0 -x -40 -y 20 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -x 330 -y 780 -defaultsOSRD
+preplace inst usp_rf_data_converter_0 -pg 1 -lvl 4 -x 1880 -y 790 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 2 -x 870 -y 330 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 1 -x 330 -y 1290 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 3 -x 1380 -y 1060 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 5 -x 2160 -y 850 -defaultsOSRD
+preplace inst ClockSystem -pg 1 -lvl 3 -x 1380 -y 380 -defaultsOSRD
+preplace inst dac_generator -pg 1 -lvl 3 -x 1380 -y 810 -defaultsOSRD
+preplace inst system_ila_1 -pg 1 -lvl 4 -x 1880 -y 1180 -defaultsOSRD
+preplace inst hier_GPIO -pg 1 -lvl 4 -x 1880 -y 1360 -defaultsOSRD
+preplace netloc PL_CLK_1 1 0 3 NJ 20 700J 730 1090J
+preplace netloc clk_wiz_0_clk_out1 1 2 2 1190 590 1650
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 3 2 1640 500 2050J
+preplace netloc proc_sys_reset_1_peripheral_aresetn 1 2 2 1190 940 1610
+preplace netloc rst_ps8_0_99M_peripheral_aresetn 1 1 3 730 750 1070 600 1570
+preplace netloc src_in_0_1 1 0 3 NJ 600 680J 740 1120J
+preplace netloc usp_rf_data_converter_0_clk_adc0 1 2 3 1190 950 1560 510 2040
+preplace netloc xpm_cdc_gen_0_dest_out 1 3 1 1700 380n
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 30 620 710 770 1060 610 1550
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 3 40 630 630 760 1160
+preplace netloc adc0_clk_1 1 0 4 -20J 640 720J 680 1130J 640 1690J
+preplace netloc adc2_clk_1 1 0 4 -20J 650 690J 690 1110J 620 1710J
+preplace netloc axi_gpio_0_GPIO 1 4 2 NJ 1370 2260J
+preplace netloc axi_gpio_1_GPIO 1 4 2 2030J 1320 NJ
+preplace netloc axi_gpio_2_GPIO 1 4 2 NJ 1350 NJ
+preplace netloc dac2_clk_1 1 0 4 -10J 660 670J 720 1140J 630 1670J
+preplace netloc dac_generator_axis 1 3 1 1720 590n
+preplace netloc dac_generator_axis1 1 3 1 1730 630n
+preplace netloc hier_GPIO_pmod0 1 4 2 NJ 1390 2260J
+preplace netloc ps8_0_axi_periph_M00_AXI 1 2 2 1010J 240 1730
+preplace netloc ps8_0_axi_periph_M01_AXI 1 2 2 1020J 230 1680
+preplace netloc ps8_0_axi_periph_M02_AXI 1 2 2 1010J 260 1660
+preplace netloc ps8_0_axi_periph_M03_AXI 1 2 2 1100 270 1620J
+preplace netloc ps8_0_axi_periph_M04_AXI 1 2 1 1160 310n
+preplace netloc ps8_0_axi_periph_M05_AXI 1 2 1 1100 330n
+preplace netloc ps8_0_axi_periph_M06_AXI 1 2 1 1020 350n
+preplace netloc ps8_0_axi_periph_M07_AXI 1 2 1 1080 370n
+preplace netloc ps8_0_axi_periph_M08_AXI 1 2 1 1050 390n
+preplace netloc ps8_0_axi_periph_M09_AXI 1 2 1 1040 410n
+preplace netloc ps8_0_axi_periph_M10_AXI 1 2 2 1030 250 1630J
+preplace netloc sysref_in_1 1 0 4 10J 680 650J 700 1150J 660 1580J
+preplace netloc usp_rf_data_converter_0_m00_axis 1 4 1 2030 690n
+preplace netloc usp_rf_data_converter_0_vout00 1 4 2 2020J 720 NJ
+preplace netloc usp_rf_data_converter_0_vout10 1 4 2 NJ 750 NJ
+preplace netloc usp_rf_data_converter_0_vout20 1 4 2 NJ 770 2260J
+preplace netloc vin0_01_1 1 0 4 0J 670 660J 710 1170J 670 1590J
+preplace netloc vin2_01_1 1 0 4 20J 880 NJ 880 1180J 650 1600J
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 1 640 40n
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM1_FPD 1 1 1 620 60n
+levelinfo -pg 1 -40 330 870 1380 1880 2160 2280
+pagesize -pg 1 -db -bbox -sgen -190 -20 2460 1800
+"
+}
+{
+   "da_axi4_cnt":"12",
+   "da_board_cnt":"8",
+   "da_bram_cntlr_cnt":"6",
+   "da_clkrst_cnt":"18",
+   "da_rf_converter_usp_cnt":"8",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

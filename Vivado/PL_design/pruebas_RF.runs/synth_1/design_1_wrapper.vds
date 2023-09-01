@@ -1,0 +1,629 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Sep  1 12:46:57 2023
+# Process ID: 2316
+# Current directory: C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1
+# Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
+# Log file: C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/design_1_wrapper.vds
+# Journal file: C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1\vivado.jou
+# Running On: DESKTOP-37DH2T5, OS: Windows, CPU Frequency: 1382 MHz, CPU Physical cores: 4, Host memory: 8303 MB
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Users/raque/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl'
+source design_1_wrapper.tcl -notrace
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1306]}  -suppress '. The existing rule will be replaced.
+WARNING: [Common 17-1361] You have specified a new message control rule that is equivalent to an existing rule with attributes ' -id {[BD 41-1271]}  -suppress '. The existing rule will be replaced.
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1281.293 ; gain = 9.133
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.cache/ip 
+add_files: Time (s): cpu = 00:00:07 ; elapsed = 00:00:25 . Memory (MB): peak = 1281.293 ; gain = 0.000
+Command: read_checkpoint -auto_incremental -incremental C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/pruebas_RF/pruebas_RF.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/pruebas_RF/pruebas_RF.srcs/utils_1/imports/synth_1/design_1_wrapper.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top design_1_wrapper -part xczu48dr-ffvg1517-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu48dr'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu48dr'
+INFO: [Common 17-86] Your Synthesis license expires in 2 day(s)
+INFO: [Common 17-1540] The version limit for your license is '2023.07' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for new releases.
+INFO: [Device 21-403] Loading part xczu48dr-ffvg1517-2-e
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 20980
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:13 . Memory (MB): peak = 1854.809 ; gain = 273.121
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_wrapper' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:54]
+INFO: [Synth 8-3491] module 'design_1' declared at 'c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:5266' bound to instance 'design_1_i' of component 'design_1' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'design_1' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:5310]
+INFO: [Synth 8-638] synthesizing module 'hier_ClockSystem_imp_146SYOO' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:44]
+INFO: [Synth 8-3491] module 'design_1_clk_wiz_0_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_clk_wiz_0_0_stub.vhdl:5' bound to instance 'clk_wiz_0' of component 'design_1_clk_wiz_0_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'design_1_clk_wiz_0_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_clk_wiz_0_0_stub.vhdl:38]
+INFO: [Synth 8-3491] module 'design_1_proc_sys_reset_0_1' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_proc_sys_reset_0_1_stub.vhdl:5' bound to instance 'proc_sys_reset_0' of component 'design_1_proc_sys_reset_0_1' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:195]
+INFO: [Synth 8-638] synthesizing module 'design_1_proc_sys_reset_0_1' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_proc_sys_reset_0_1_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_1_util_ds_buf_0_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_util_ds_buf_0_0_stub.vhdl:5' bound to instance 'util_ds_buf_0' of component 'design_1_util_ds_buf_0_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:208]
+INFO: [Synth 8-638] synthesizing module 'design_1_util_ds_buf_0_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_util_ds_buf_0_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_xpm_cdc_gen_0_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_xpm_cdc_gen_0_0_stub.vhdl:5' bound to instance 'xpm_cdc_gen_0' of component 'design_1_xpm_cdc_gen_0_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:213]
+INFO: [Synth 8-638] synthesizing module 'design_1_xpm_cdc_gen_0_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_xpm_cdc_gen_0_0_stub.vhdl:15]
+INFO: [Synth 8-256] done synthesizing module 'hier_ClockSystem_imp_146SYOO' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:44]
+INFO: [Synth 8-638] synthesizing module 'hier_DACgeneration_imp_10JDH5P' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:241]
+INFO: [Synth 8-3491] module 'design_1_DAC_generator_16w_0_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_DAC_generator_16w_0_0_stub.vhdl:5' bound to instance 'DAC_generator_16w_0' of component 'design_1_DAC_generator_16w_0_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:321]
+INFO: [Synth 8-638] synthesizing module 'design_1_DAC_generator_16w_0_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_DAC_generator_16w_0_0_stub.vhdl:24]
+INFO: [Synth 8-3491] module 'design_1_system_ila_0_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_system_ila_0_0_stub.vhdl:5' bound to instance 'system_ila_0' of component 'design_1_system_ila_0_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:337]
+INFO: [Synth 8-638] synthesizing module 'design_1_system_ila_0_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_system_ila_0_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_1_system_ila_1_1' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_system_ila_1_1_stub.vhdl:5' bound to instance 'system_ila_1' of component 'design_1_system_ila_1_1' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:350]
+INFO: [Synth 8-638] synthesizing module 'design_1_system_ila_1_1' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_system_ila_1_1_stub.vhdl:16]
+INFO: [Synth 8-256] done synthesizing module 'hier_DACgeneration_imp_10JDH5P' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:241]
+INFO: [Synth 8-638] synthesizing module 'hier_GPIO_imp_1BBQ07Y' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:514]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_0_2' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_0_2_stub.vhdl:5' bound to instance 'axi_gpio_0' of component 'design_1_axi_gpio_0_2' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1000]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_2' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_0_2_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_1_1' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_1_1_stub.vhdl:5' bound to instance 'axi_gpio_1' of component 'design_1_axi_gpio_1_1' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1023]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_1_1' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_1_1_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_1_4' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_1_4_stub.vhdl:5' bound to instance 'axi_gpio_3' of component 'design_1_axi_gpio_1_4' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1046]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_1_4' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_1_4_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_1_5' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_1_5_stub.vhdl:5' bound to instance 'axi_gpio_4' of component 'design_1_axi_gpio_1_5' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1069]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_1_5' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_1_5_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_1_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_1_0_stub.vhdl:5' bound to instance 'axi_leds' of component 'design_1_axi_gpio_1_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1092]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_1_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_1_0_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_3_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_3_0_stub.vhdl:5' bound to instance 'axi_rgbled0' of component 'design_1_axi_gpio_3_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1115]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_3_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_3_0_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_4_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_4_0_stub.vhdl:5' bound to instance 'axi_rgbled1' of component 'design_1_axi_gpio_4_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1138]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_4_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_4_0_stub.vhdl:31]
+INFO: [Synth 8-3491] module 'design_1_axi_gpio_0_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_0_0_stub.vhdl:5' bound to instance 'axi_switches' of component 'design_1_axi_gpio_0_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1161]
+INFO: [Synth 8-638] synthesizing module 'design_1_axi_gpio_0_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_axi_gpio_0_0_stub.vhdl:31]
+INFO: [Synth 8-256] done synthesizing module 'hier_GPIO_imp_1BBQ07Y' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:514]
+INFO: [Synth 8-638] synthesizing module 'design_1_ps8_0_axi_periph_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:3608]
+INFO: [Synth 8-638] synthesizing module 'm00_couplers_imp_QJIMLI' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1232]
+INFO: [Synth 8-256] done synthesizing module 'm00_couplers_imp_QJIMLI' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1232]
+INFO: [Synth 8-638] synthesizing module 'm01_couplers_imp_1D3SAH3' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1333]
+INFO: [Synth 8-256] done synthesizing module 'm01_couplers_imp_1D3SAH3' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1333]
+INFO: [Synth 8-638] synthesizing module 'm02_couplers_imp_P3UMW5' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1434]
+INFO: [Synth 8-256] done synthesizing module 'm02_couplers_imp_P3UMW5' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1434]
+INFO: [Synth 8-638] synthesizing module 'm03_couplers_imp_1E9R4HW' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1535]
+INFO: [Synth 8-256] done synthesizing module 'm03_couplers_imp_1E9R4HW' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1535]
+INFO: [Synth 8-638] synthesizing module 'm04_couplers_imp_NB1YAO' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1636]
+INFO: [Synth 8-256] done synthesizing module 'm04_couplers_imp_NB1YAO' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1636]
+INFO: [Synth 8-638] synthesizing module 'm05_couplers_imp_1FZ4A9T' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1737]
+INFO: [Synth 8-256] done synthesizing module 'm05_couplers_imp_1FZ4A9T' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1737]
+INFO: [Synth 8-638] synthesizing module 'm06_couplers_imp_MPDFMR' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1838]
+INFO: [Synth 8-256] done synthesizing module 'm06_couplers_imp_MPDFMR' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1838]
+INFO: [Synth 8-638] synthesizing module 'm07_couplers_imp_1GV49DU' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1939]
+INFO: [Synth 8-256] done synthesizing module 'm07_couplers_imp_1GV49DU' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:1939]
+INFO: [Synth 8-638] synthesizing module 'm08_couplers_imp_K8X5UY' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2040]
+INFO: [Synth 8-256] done synthesizing module 'm08_couplers_imp_K8X5UY' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2040]
+INFO: [Synth 8-638] synthesizing module 'm09_couplers_imp_1AITGY3' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2141]
+INFO: [Synth 8-256] done synthesizing module 'm09_couplers_imp_1AITGY3' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2141]
+INFO: [Synth 8-638] synthesizing module 'm10_couplers_imp_11TD8LA' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2246]
+INFO: [Synth 8-256] done synthesizing module 'm10_couplers_imp_11TD8LA' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2246]
+INFO: [Synth 8-638] synthesizing module 's00_couplers_imp_1A7ZMW4' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2375]
+INFO: [Synth 8-3491] module 'design_1_auto_ds_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_auto_ds_0_stub.vhdl:5' bound to instance 'auto_ds' of component 'design_1_auto_ds_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2668]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_ds_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_auto_ds_0_stub.vhdl:87]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_auto_pc_0_stub.vhdl:5' bound to instance 'auto_pc' of component 'design_1_auto_pc_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2747]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_auto_pc_0_stub.vhdl:67]
+INFO: [Synth 8-256] done synthesizing module 's00_couplers_imp_1A7ZMW4' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2375]
+INFO: [Synth 8-638] synthesizing module 's01_couplers_imp_KGUFR9' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2876]
+INFO: [Synth 8-3491] module 'design_1_auto_ds_1' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_auto_ds_1_stub.vhdl:5' bound to instance 'auto_ds' of component 'design_1_auto_ds_1' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:3169]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_ds_1' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_auto_ds_1_stub.vhdl:87]
+INFO: [Synth 8-3491] module 'design_1_auto_pc_1' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_auto_pc_1_stub.vhdl:5' bound to instance 'auto_pc' of component 'design_1_auto_pc_1' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:3248]
+INFO: [Synth 8-638] synthesizing module 'design_1_auto_pc_1' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_auto_pc_1_stub.vhdl:67]
+INFO: [Synth 8-256] done synthesizing module 's01_couplers_imp_KGUFR9' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:2876]
+INFO: [Synth 8-3491] module 'design_1_xbar_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_xbar_0_stub.vhdl:5' bound to instance 'xbar' of component 'design_1_xbar_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:4994]
+INFO: [Synth 8-638] synthesizing module 'design_1_xbar_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_xbar_0_stub.vhdl:51]
+INFO: [Synth 8-256] done synthesizing module 'design_1_ps8_0_axi_periph_0' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:3608]
+INFO: [Synth 8-3491] module 'design_1_rst_ps8_0_99M_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_rst_ps8_0_99M_0_stub.vhdl:5' bound to instance 'rst_ps8_0_99M' of component 'design_1_rst_ps8_0_99M_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:6445]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_ps8_0_99M_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_rst_ps8_0_99M_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_1_rst_usp_rf_data_converter_0_307M_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_rst_usp_rf_data_converter_0_307M_0_stub.vhdl:5' bound to instance 'rst_usp_rf_data_converter_0_307M' of component 'design_1_rst_usp_rf_data_converter_0_307M_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:6458]
+INFO: [Synth 8-638] synthesizing module 'design_1_rst_usp_rf_data_converter_0_307M_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_rst_usp_rf_data_converter_0_307M_0_stub.vhdl:21]
+INFO: [Synth 8-3491] module 'design_1_system_ila_0_1' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_system_ila_0_1_stub.vhdl:5' bound to instance 'system_ila_0' of component 'design_1_system_ila_0_1' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:6471]
+INFO: [Synth 8-638] synthesizing module 'design_1_system_ila_0_1' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_system_ila_0_1_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'design_1_system_ila_2_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_system_ila_2_0_stub.vhdl:5' bound to instance 'system_ila_2' of component 'design_1_system_ila_2_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:6476]
+INFO: [Synth 8-638] synthesizing module 'design_1_system_ila_2_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_system_ila_2_0_stub.vhdl:29]
+INFO: [Synth 8-3491] module 'design_1_usp_rf_data_converter_0_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_usp_rf_data_converter_0_0_stub.vhdl:5' bound to instance 'usp_rf_data_converter_0' of component 'design_1_usp_rf_data_converter_0_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:6497]
+INFO: [Synth 8-638] synthesizing module 'design_1_usp_rf_data_converter_0_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_usp_rf_data_converter_0_0_stub.vhdl:90]
+INFO: [Synth 8-3491] module 'design_1_zynq_ultra_ps_e_0_0' declared at 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_zynq_ultra_ps_e_0_0_stub.vhdl:5' bound to instance 'zynq_ultra_ps_e_0' of component 'design_1_zynq_ultra_ps_e_0_0' [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:6579]
+INFO: [Synth 8-638] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/.Xil/Vivado-2316-DESKTOP-37DH2T5/realtime/design_1_zynq_ultra_ps_e_0_0_stub.vhdl:98]
+INFO: [Synth 8-256] done synthesizing module 'design_1' (0#1) [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/synth/design_1.vhd:5310]
+INFO: [Synth 8-256] done synthesizing module 'design_1_wrapper' (0#1) [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/hdl/design_1_wrapper.vhd:54]
+WARNING: [Synth 8-7129] Port M_ACLK in module s01_couplers_imp_KGUFR9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s01_couplers_imp_KGUFR9 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module s00_couplers_imp_1A7ZMW4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module s00_couplers_imp_1A7ZMW4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m10_couplers_imp_11TD8LA is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m10_couplers_imp_11TD8LA is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m10_couplers_imp_11TD8LA is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m10_couplers_imp_11TD8LA is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m09_couplers_imp_1AITGY3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m09_couplers_imp_1AITGY3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m09_couplers_imp_1AITGY3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m09_couplers_imp_1AITGY3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m08_couplers_imp_K8X5UY is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m08_couplers_imp_K8X5UY is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m08_couplers_imp_K8X5UY is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m08_couplers_imp_K8X5UY is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m07_couplers_imp_1GV49DU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m07_couplers_imp_1GV49DU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m07_couplers_imp_1GV49DU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m07_couplers_imp_1GV49DU is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m06_couplers_imp_MPDFMR is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m06_couplers_imp_MPDFMR is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m06_couplers_imp_MPDFMR is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m06_couplers_imp_MPDFMR is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m05_couplers_imp_1FZ4A9T is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m05_couplers_imp_1FZ4A9T is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m05_couplers_imp_1FZ4A9T is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m05_couplers_imp_1FZ4A9T is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m04_couplers_imp_NB1YAO is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m04_couplers_imp_NB1YAO is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m04_couplers_imp_NB1YAO is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m04_couplers_imp_NB1YAO is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m03_couplers_imp_1E9R4HW is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m03_couplers_imp_1E9R4HW is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m03_couplers_imp_1E9R4HW is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m03_couplers_imp_1E9R4HW is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m02_couplers_imp_P3UMW5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m02_couplers_imp_P3UMW5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m02_couplers_imp_P3UMW5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m02_couplers_imp_P3UMW5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m01_couplers_imp_1D3SAH3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m01_couplers_imp_1D3SAH3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m01_couplers_imp_1D3SAH3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m01_couplers_imp_1D3SAH3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ACLK in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M_ARESETN in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ACLK in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_ARESETN in module m00_couplers_imp_QJIMLI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M00_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M01_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M02_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M03_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M04_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M04_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M05_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M05_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M06_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M06_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M07_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M07_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M08_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M08_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M09_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M09_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M10_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port M10_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S00_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ACLK in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S01_ARESETN in module design_1_ps8_0_axi_periph_0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[39] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[38] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[37] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[36] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[35] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[34] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[33] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[32] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[31] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[30] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[29] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[28] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[27] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[26] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[25] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[24] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[23] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[22] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[21] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[20] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[19] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[18] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[17] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[16] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[15] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI1_araddr[14] in module hier_GPIO_imp_1BBQ07Y is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1935.566 ; gain = 353.879
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1959.438 ; gain = 377.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:18 . Memory (MB): peak = 1959.438 ; gain = 377.750
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.212 . Memory (MB): peak = 1959.438 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+create_clock: Time (s): cpu = 00:00:04 ; elapsed = 00:00:13 . Memory (MB): peak = 1998.766 ; gain = 12.176
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc] for cell 'design_1_i/usp_rf_data_converter_0'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc] for cell 'design_1_i/usp_rf_data_converter_0'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/xbar'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_in_context.xdc] for cell 'design_1_i/rst_ps8_0_99M'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_in_context.xdc] for cell 'design_1_i/rst_ps8_0_99M'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_rst_usp_rf_data_converter_0_307M_0/design_1_rst_usp_rf_data_converter_0_307M_0/design_1_rst_usp_rf_data_converter_0_307M_0_in_context.xdc] for cell 'design_1_i/rst_usp_rf_data_converter_0_307M'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_rst_usp_rf_data_converter_0_307M_0/design_1_rst_usp_rf_data_converter_0_307M_0/design_1_rst_usp_rf_data_converter_0_307M_0_in_context.xdc] for cell 'design_1_i/rst_usp_rf_data_converter_0_307M'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_4_0/design_1_axi_gpio_4_0/design_1_axi_gpio_4_0_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_rgbled1'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_4_0/design_1_axi_gpio_4_0/design_1_axi_gpio_4_0_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_rgbled1'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_gpio_0'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2/design_1_axi_gpio_0_2_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_gpio_0'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_switches'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_switches'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_leds'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_leds'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_rgbled0'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0/design_1_axi_gpio_3_0_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_rgbled0'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_1/design_1_axi_gpio_1_1/design_1_axi_gpio_0_2_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_gpio_1'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_1/design_1_axi_gpio_1_1/design_1_axi_gpio_0_2_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_gpio_1'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_4/design_1_axi_gpio_1_4/design_1_axi_gpio_0_2_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_gpio_3'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_4/design_1_axi_gpio_1_4/design_1_axi_gpio_0_2_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_gpio_3'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_5/design_1_axi_gpio_1_5/design_1_axi_gpio_0_2_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_gpio_4'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_1_5/design_1_axi_gpio_1_5/design_1_axi_gpio_0_2_in_context.xdc] for cell 'design_1_i/hier_GPIO/axi_gpio_4'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_system_ila_2_0/design_1_system_ila_2_0/design_1_system_ila_2_0_in_context.xdc] for cell 'design_1_i/system_ila_2'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_system_ila_2_0/design_1_system_ila_2_0/design_1_system_ila_2_0_in_context.xdc] for cell 'design_1_i/system_ila_2'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0_in_context.xdc] for cell 'design_1_i/hier_ClockSystem/util_ds_buf_0'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0/design_1_util_ds_buf_0_0_in_context.xdc] for cell 'design_1_i/hier_ClockSystem/util_ds_buf_0'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1_in_context.xdc] for cell 'design_1_i/hier_ClockSystem/proc_sys_reset_0'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1/design_1_proc_sys_reset_0_1_in_context.xdc] for cell 'design_1_i/hier_ClockSystem/proc_sys_reset_0'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/hier_ClockSystem/clk_wiz_0'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_in_context.xdc] for cell 'design_1_i/hier_ClockSystem/clk_wiz_0'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_xpm_cdc_gen_0_0/design_1_xpm_cdc_gen_0_0/design_1_xpm_cdc_gen_0_0_in_context.xdc] for cell 'design_1_i/hier_ClockSystem/xpm_cdc_gen_0'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_xpm_cdc_gen_0_0/design_1_xpm_cdc_gen_0_0/design_1_xpm_cdc_gen_0_0_in_context.xdc] for cell 'design_1_i/hier_ClockSystem/xpm_cdc_gen_0'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0/design_1_system_ila_0_0_in_context.xdc] for cell 'design_1_i/hier_DACgeneration/system_ila_0'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_0/design_1_system_ila_0_0/design_1_system_ila_0_0_in_context.xdc] for cell 'design_1_i/hier_DACgeneration/system_ila_0'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_system_ila_1_1/design_1_system_ila_1_1/design_1_system_ila_1_1_in_context.xdc] for cell 'design_1_i/hier_DACgeneration/system_ila_1'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_system_ila_1_1/design_1_system_ila_1_1/design_1_system_ila_1_1_in_context.xdc] for cell 'design_1_i/hier_DACgeneration/system_ila_1'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_DAC_generator_16w_0_0/design_1_DAC_generator_16w_0_0/design_1_DAC_generator_16w_0_0_in_context.xdc] for cell 'design_1_i/hier_DACgeneration/DAC_generator_16w_0'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_DAC_generator_16w_0_0/design_1_DAC_generator_16w_0_0/design_1_DAC_generator_16w_0_0_in_context.xdc] for cell 'design_1_i/hier_DACgeneration/DAC_generator_16w_0'
+Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_1/design_1_system_ila_0_1/design_1_system_ila_0_1_in_context.xdc] for cell 'design_1_i/system_ila_0'
+Finished Parsing XDC File [c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_system_ila_0_1/design_1_system_ila_0_1/design_1_system_ila_0_1_in_context.xdc] for cell 'design_1_i/system_ila_0'
+Parsing XDC File [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_LED_PB__SW.xdc]
+WARNING: [Vivado 12-507] No nets matched 'PButton_0_IBUF_inst/O'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_LED_PB__SW.xdc:62]
+Finished Parsing XDC File [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_LED_PB__SW.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_LED_PB__SW.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_1_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_LED_PB__SW.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/new/RFSoCoverlay.xdc]
+Finished Parsing XDC File [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/new/RFSoCoverlay.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/new/RFSoCoverlay.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc]
+WARNING: [Vivado 12-584] No ports matched 'PMOD0_2'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:5]
+WARNING: [Vivado 12-584] No ports matched 'PMOD0_3'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:6]
+WARNING: [Vivado 12-584] No ports matched 'PMOD0_4'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:7]
+WARNING: [Vivado 12-584] No ports matched 'PMOD0_5'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:8]
+WARNING: [Vivado 12-584] No ports matched 'PMOD0_6'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:9]
+WARNING: [Vivado 12-584] No ports matched 'PMOD0_7'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_0'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:13]
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_1'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:14]
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_2'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:15]
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_3'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:16]
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_4'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:17]
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_5'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_6'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'PMOD1_7'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'PMOD1*'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'PMOD01_0'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'PMOD01_1'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'PMOD01_2'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'PMOD01_3'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'PMOD01_4'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'PMOD01_5'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'PMOD01*'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:29]
+WARNING: [Vivado 12-507] No nets matched 'design_1/hier_DACgeneration/DAC_generator_16w_0/alg_end'. [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc:36]
+Finished Parsing XDC File [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_1_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.srcs/constrs_1/imports/4x2_PL_FULL_CONSTRAINTS/4x2_PMOD.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1998.766 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1998.766 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:48 . Memory (MB): peak = 1998.766 ; gain = 417.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu48dr-ffvg1517-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:48 . Memory (MB): peak = 1998.766 ; gain = 417.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for adc0_clk_clk_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for adc0_clk_clk_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 7).
+Applied set_property IO_BUFFER_TYPE = NONE for adc0_clk_clk_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 8).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for adc0_clk_clk_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 9).
+Applied set_property IO_BUFFER_TYPE = NONE for adc2_clk_clk_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 10).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for adc2_clk_clk_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 11).
+Applied set_property IO_BUFFER_TYPE = NONE for adc2_clk_clk_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 12).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for adc2_clk_clk_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 13).
+Applied set_property IO_BUFFER_TYPE = NONE for dac2_clk_clk_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 14).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for dac2_clk_clk_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 15).
+Applied set_property IO_BUFFER_TYPE = NONE for dac2_clk_clk_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 16).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for dac2_clk_clk_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 17).
+Applied set_property IO_BUFFER_TYPE = NONE for sysref_in_diff_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 18).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sysref_in_diff_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 19).
+Applied set_property IO_BUFFER_TYPE = NONE for sysref_in_diff_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 20).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sysref_in_diff_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 21).
+Applied set_property IO_BUFFER_TYPE = NONE for vin0_01_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 22).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vin0_01_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 23).
+Applied set_property IO_BUFFER_TYPE = NONE for vin0_01_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 24).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vin0_01_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 25).
+Applied set_property IO_BUFFER_TYPE = NONE for vin0_23_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 26).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vin0_23_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 27).
+Applied set_property IO_BUFFER_TYPE = NONE for vin0_23_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 28).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vin0_23_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 29).
+Applied set_property IO_BUFFER_TYPE = NONE for vin2_01_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 30).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vin2_01_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 31).
+Applied set_property IO_BUFFER_TYPE = NONE for vin2_01_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 32).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vin2_01_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 33).
+Applied set_property IO_BUFFER_TYPE = NONE for vin2_23_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 34).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vin2_23_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 35).
+Applied set_property IO_BUFFER_TYPE = NONE for vin2_23_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 36).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vin2_23_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 37).
+Applied set_property IO_BUFFER_TYPE = NONE for vout00_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 38).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vout00_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 39).
+Applied set_property IO_BUFFER_TYPE = NONE for vout00_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 40).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vout00_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 41).
+Applied set_property IO_BUFFER_TYPE = NONE for vout10_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 42).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vout10_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 43).
+Applied set_property IO_BUFFER_TYPE = NONE for vout10_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 44).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vout10_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 45).
+Applied set_property IO_BUFFER_TYPE = NONE for vout20_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 46).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vout20_v_n. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 47).
+Applied set_property IO_BUFFER_TYPE = NONE for vout20_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 48).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for vout20_v_p. (constraint file  c:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.gen/sources_1/bd/design_1/ip/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0/design_1_usp_rf_data_converter_0_0_in_context.xdc, line 49).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/usp_rf_data_converter_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph/xbar. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ps8_0_axi_periph. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/rst_ps8_0_99M. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/rst_usp_rf_data_converter_0_307M. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_GPIO/axi_rgbled1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_GPIO/axi_gpio_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_GPIO/axi_switches. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_GPIO/axi_leds. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_GPIO/axi_rgbled0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_GPIO/axi_gpio_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_GPIO/axi_gpio_3. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_GPIO/axi_gpio_4. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/system_ila_2. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_ClockSystem/util_ds_buf_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_ClockSystem/proc_sys_reset_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_ClockSystem/clk_wiz_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_ClockSystem/xpm_cdc_gen_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_DACgeneration/system_ila_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_DACgeneration/system_ila_1. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/hier_DACgeneration/DAC_generator_16w_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/system_ila_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:48 . Memory (MB): peak = 1998.766 ; gain = 417.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:49 . Memory (MB): peak = 1998.766 ; gain = 417.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 4272 (col length:192)
+BRAMs: 2160 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:53 . Memory (MB): peak = 1998.766 ; gain = 417.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:01:10 . Memory (MB): peak = 2418.723 ; gain = 837.035
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:01:10 . Memory (MB): peak = 2419.938 ; gain = 838.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:01:10 . Memory (MB): peak = 2439.742 ; gain = 858.055
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:01:14 . Memory (MB): peak = 2444.270 ; gain = 862.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:01:14 . Memory (MB): peak = 2444.270 ; gain = 862.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:01:14 . Memory (MB): peak = 2444.270 ; gain = 862.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:01:14 . Memory (MB): peak = 2444.270 ; gain = 862.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:01:14 . Memory (MB): peak = 2444.270 ; gain = 862.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:01:14 . Memory (MB): peak = 2444.270 ; gain = 862.582
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------------------------+----------+
+|      |BlackBox name                               |Instances |
++------+--------------------------------------------+----------+
+|1     |design_1_xbar_0                             |         1|
+|2     |design_1_auto_ds_0                          |         1|
+|3     |design_1_auto_pc_0                          |         1|
+|4     |design_1_auto_ds_1                          |         1|
+|5     |design_1_auto_pc_1                          |         1|
+|6     |design_1_rst_ps8_0_99M_0                    |         1|
+|7     |design_1_rst_usp_rf_data_converter_0_307M_0 |         1|
+|8     |design_1_system_ila_0_1                     |         1|
+|9     |design_1_system_ila_2_0                     |         1|
+|10    |design_1_usp_rf_data_converter_0_0          |         1|
+|11    |design_1_zynq_ultra_ps_e_0_0                |         1|
+|12    |design_1_clk_wiz_0_0                        |         1|
+|13    |design_1_proc_sys_reset_0_1                 |         1|
+|14    |design_1_util_ds_buf_0_0                    |         1|
+|15    |design_1_xpm_cdc_gen_0_0                    |         1|
+|16    |design_1_DAC_generator_16w_0_0              |         1|
+|17    |design_1_system_ila_0_0                     |         1|
+|18    |design_1_system_ila_1_1                     |         1|
+|19    |design_1_axi_gpio_0_2                       |         1|
+|20    |design_1_axi_gpio_1_1                       |         1|
+|21    |design_1_axi_gpio_1_4                       |         1|
+|22    |design_1_axi_gpio_1_5                       |         1|
+|23    |design_1_axi_gpio_1_0                       |         1|
+|24    |design_1_axi_gpio_3_0                       |         1|
+|25    |design_1_axi_gpio_4_0                       |         1|
+|26    |design_1_axi_gpio_0_0                       |         1|
++------+--------------------------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------------------------------+------+
+|      |Cell                                             |Count |
++------+-------------------------------------------------+------+
+|1     |design_1_DAC_generator_16w_0_0_bbox              |     1|
+|2     |design_1_auto_ds_0_bbox                          |     1|
+|3     |design_1_auto_ds_1_bbox                          |     1|
+|4     |design_1_auto_pc_0_bbox                          |     1|
+|5     |design_1_auto_pc_1_bbox                          |     1|
+|6     |design_1_axi_gpio_0_0_bbox                       |     1|
+|7     |design_1_axi_gpio_0_2_bbox                       |     1|
+|8     |design_1_axi_gpio_1_0_bbox                       |     1|
+|9     |design_1_axi_gpio_1_1_bbox                       |     1|
+|10    |design_1_axi_gpio_1_4_bbox                       |     1|
+|11    |design_1_axi_gpio_1_5_bbox                       |     1|
+|12    |design_1_axi_gpio_3_0_bbox                       |     1|
+|13    |design_1_axi_gpio_4_0_bbox                       |     1|
+|14    |design_1_clk_wiz_0_0_bbox                        |     1|
+|15    |design_1_proc_sys_reset_0_1_bbox                 |     1|
+|16    |design_1_rst_ps8_0_99M_0_bbox                    |     1|
+|17    |design_1_rst_usp_rf_data_converter_0_307M_0_bbox |     1|
+|18    |design_1_system_ila_0_0_bbox                     |     1|
+|19    |design_1_system_ila_0_1_bbox                     |     1|
+|20    |design_1_system_ila_1_1_bbox                     |     1|
+|21    |design_1_system_ila_2_0_bbox                     |     1|
+|22    |design_1_usp_rf_data_converter_0_0_bbox          |     1|
+|23    |design_1_util_ds_buf_0_0_bbox                    |     1|
+|24    |design_1_xbar_0_bbox                             |     1|
+|25    |design_1_xpm_cdc_gen_0_0_bbox                    |     1|
+|26    |design_1_zynq_ultra_ps_e_0_0_bbox                |     1|
+|27    |IBUF                                             |    11|
+|28    |OBUF                                             |    12|
++------+-------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:01:14 . Memory (MB): peak = 2444.270 ; gain = 862.582
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 27 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:55 . Memory (MB): peak = 2444.270 ; gain = 823.254
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:01:15 . Memory (MB): peak = 2444.270 ; gain = 862.582
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.102 . Memory (MB): peak = 2457.305 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2506.902 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 11 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 11 instances
+
+Synth Design complete, checksum: a3ef1af9
+INFO: [Common 17-83] Releasing license: Synthesis
+121 Infos, 132 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:01:31 . Memory (MB): peak = 2506.902 ; gain = 1225.609
+INFO: [Common 17-1381] The checkpoint 'C:/Users/raque/OneDrive/Documentos/master/TFM/Vivado/PL_MODEL/pruebas_RF.runs/synth_1/design_1_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Sep  1 12:49:12 2023...

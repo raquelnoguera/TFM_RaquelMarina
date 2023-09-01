@@ -7,7 +7,6 @@ Contents:
  
 	- Power measurement --> PYNQ Notebooks / Power Measurement.ipynb  
  
-
 ## Chapter 6. Application development:
 	- Clock configuration files --> TICS   
  
@@ -20,8 +19,11 @@ Contents:
 		- Sine samples generation --> PYNQ Notebooks / Sine samples generator.ipynb  
   
 		- Vitis C program --> Vitis / PL_program.c
+  
 	- PS Design --> 
+ 
 		- Vivado overlay --> Vivado / PS_design
+  
 		- PYNQ Python program --> PYNQ Notebooks / PSprogram.ipynb
 
 	
